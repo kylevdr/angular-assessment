@@ -2,7 +2,7 @@ angular.module('assessment').directive('product', function() {
 
   return {
       restrict: 'AE',
-      templateUrl: '../views/product-tmpl.html',
+      templateUrl: './views/product-tmpl.html',
       scope: {
         productItem: "=",
       },
